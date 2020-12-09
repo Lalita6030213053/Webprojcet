@@ -20,6 +20,11 @@ h4 {
     margin-bottom: 30px;
 }
 
+.profile {
+    height: 150px;
+    width : auto;
+}
+
 .jumbotron {
     background-color: #144372;
     color           : #fff;
@@ -131,7 +136,7 @@ h4 {
 
 .navbar {
     margin-bottom   : 0;
-    background-color:#144372;
+    background-color: #144372;
     z-index         : 9999;
     border          : 0;
     font-size       : 12px !important;
