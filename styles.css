@@ -20,9 +20,22 @@ h4 {
     margin-bottom: 30px;
 }
 
+* {
+    box-sizing: border-box;
+  }
+
+.wrapper {
+    padding: 90px;
+}
+
 .profile {
-    height: 150px;
-    width : auto;
+    height          : 350px;
+    width           : auto;
+    background-color: #bbb;
+    margin-left     : -50px;
+    object-fit      : cover;
+    object-position : center right;
+    
 }
 
 .jumbotron {
@@ -221,3 +234,4 @@ footer .glyphicon {
         font-size: 150px;
     }
 }
+
